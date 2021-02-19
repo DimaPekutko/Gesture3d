@@ -1,0 +1,24 @@
+{
+  "name": "gesture3d",
+  "version": "1.0.0",
+  "description": "Application for viewing 3D models using gestures",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/index.js -o public/main.js"
+  },
+  "keywords": [
+    "gestures",
+    "gesture",
+    "3d",
+    "models",
+    "design"
+  ],
+  "author": "Dmitry Pekutko",
+  "license": "ISC",
+  "dependencies": {
+    "nanobar": "^0.4.2",
+    "three": "^0.125.2",
+    "three-gltf-loader": "^1.111.0",
+    "three-orbitcontrols": "^2.110.3"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Gesture 3d</title>
+</head>
+<body>
+    <div id="nanobar">
+    </div>
+    <div class="main_wrap">
+        <div class="main_control_panel ui">
+            <div class="header section">
+                <h2>
+                    <a id="main_logo" href="#">
+                        Gestures 3d
+                    </a>
+                    <a id="source_code_link" href="#">github</a>
+                </h2>
+                <!-- <input id="gesture_mode_switch" type="range" min="1" max="2" step="1" value="2">  -->
+            </div>
+            <div class="sub_header section">
+
+            </div>
+            <div class="upload section">
+                <h3>Upload your model here!</h3>
+                <p>Available types:<span>obj gftl fbx</span></p><br>
+                <label for="file_input" id="file_loader_input">Upload model</label>
+                <input type="file" id="file_input" name="myfile" multiple="multiple"/>
+            </div>
+        </div>
+        <div class="workspace_container">
+            <!-- <canvas id="workspaceCanvas">
+
+            </canvas> -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
